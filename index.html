@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title></title>
+</head>
+<body>
+<section class="showcase">
+  <header>
+    <h2 class="logo">Estudo Menu lateral</h2>
+    <div class="toggle"></div>
+  </header>
+  
+  <div class="overlay"></div>
+  <div class="text">
+    <h2>menu lateral side bar →</h2>
+    <h3>Interativo com barra de rolagem </h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <a href="#">Saiba Mais</a>
+  </div>
+  <ul class="social">
+    <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+  </ul>
+</section>
+<div class="menu">
+  <ul>
+    <li><a href="#">Início</a></li>
+    <li><a href="#">Notícias</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul>
+</div>
+
+<script>
+	 const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+</body>
+</html>
