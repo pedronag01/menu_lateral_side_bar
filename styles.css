@@ -60,7 +60,7 @@ header .logo
   justify-content: space-between;
   align-items: center;
   background: #111;
-  transition: 0.5s;
+  transition: 1.5s;
   z-index: 2;
 }
 .showcase.active
@@ -164,7 +164,6 @@ header .logo
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
-  padding-top: 150px;
 }
 
 .menu ul
